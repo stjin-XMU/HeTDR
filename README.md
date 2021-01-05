@@ -8,7 +8,7 @@ Drug repositioning based on Heterogeneous network and Text Mining
 4. fuse_similarity_matrix.m fuse nine PPMI matrix
 5. SAE.py get the drug feature
 
-###'Get disease feature' directory
+### 'Get disease feature' directory
 Part of codes and parameters use the BioBERT (https://github.com/dmis-lab/biobert)
 1. Requirments: tensorflow-gpu  >= 1.11.0   GPU version of TensorFlow.
                 sklearn                     To evaluate RE answers
@@ -18,7 +18,7 @@ Part of codes and parameters use the BioBERT (https://github.com/dmis-lab/biober
    (After that, we get the embedding of vocabularies, which we need to obtain the model checkpoint file, i.e. model.ckpt-4496.)
 3. getEmbedding_1229.py get the Embedding of diseases: Run Code File getEmbedding_1229.py  
 
-###'link_prediction'  directory
+### 'link_prediction'  directory
 1. 'data' directory contain the gold standard drug-disease association and the example dataset.
 2. main.py get the result of disease-drug association prediction.
    You can use `python main.py --input data  --features data/feature`
