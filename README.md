@@ -17,6 +17,7 @@ Part of codes and parameters use the BioBERT (https://github.com/dmis-lab/biober
    Run Shell File train.sh    # Remind of the file path. Detail see https://github.com/dmis-lab/biobert
    (After that, we get the embedding of vocabularies, which we need to obtain the model checkpoint file, i.e. model.ckpt-4496.)
 3. getEmbedding_1229.py get the Embedding of diseases: Run Code File getEmbedding_1229.py  
+Because the file size limit, 'Get disease feature.zip' download URL: https://github.com/stjin-XMU/HeTDR/releases/download/HeTDR/Get.disease.feature.zip
 
 ### 'link_prediction'  directory
 1. 'data' directory contain the gold standard drug-disease association and the example dataset.
